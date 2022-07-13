@@ -1,7 +1,8 @@
+pip==21.3.1
+
 Flask==0.12.1
 Flask.Cors==3.0.2
 numpy==1.12.1
 numpydoc==0.6.0
-
 
 gunicorn
