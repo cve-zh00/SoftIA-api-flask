@@ -6,6 +6,9 @@ app =Flask(__name__)
 
 CORS(app)
 
+@app.route("/")
+def home():
+    return"la app funciona"
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
